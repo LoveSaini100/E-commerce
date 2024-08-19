@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: black;
+    scale: 1.1;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    outline: none;
+    border: 4px solid rgb(248,26, 92);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    border-radius: 60px;
+    outline: none;
+    background: rgb(248,26, 92);
+    border: 2px solid rgb(248,26, 92);
+    color: white;
+    font-weight: 700;
+}
+
+/* Main section */
+
+.main
+{
+    background: url(./img/fruits.jpeg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 4px 2px 4px rgba(239, 237, 237, 0.879);
+    
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248,26, 92);
+    color: white;
+    border-radius: 60px;
+}
+.btn1:hover{
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+.img-fluid{
+    width: 100%;
+    background-color: rgb(48, 71, 162);
+    border: 2px solid rgb(239, 232, 232);
+    
+}
+
+.product .heading{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card:hover{
+   transition: 0.2;
+   scale: 1.05;
+}
+
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./img/apple.jpeg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Lobster', cursive;
+}
+
+.society{
+    background-color: rgb(116, 113, 113);
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.society input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.society::placeholder{
+    color: white;
+}
+.society p{
+    margin: 0;
+    font-weight: 600;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
